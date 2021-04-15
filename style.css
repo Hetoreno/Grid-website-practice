@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* Nav */
+header{
+    width:80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+li{
+    margin: 2rem;
+    list-style: none;
+}
+
+/* Intro */
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Gallery Pics */
+.gallery-grid{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(5,1fr);
+    text-align: center;
+    font-size: 5rem;
+}
+.box{
+    padding: 10rem;
+}
+.one{
+    background: blue;
+    grid-column: 1/4;
+}
+
+.two{
+    background: chartreuse;
+    grid-column: 4/6;
+}
+
+.three{
+    background: coral;
+    grid-column: 6/9;
+}
+
+.four{
+    background: cornflowerblue;
+    grid-column: 9/11;
+}
+
+.five{
+    background: crimson;
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.six{
+    background: cyan;
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.seven{
+    background: darkgray;
+    grid-column: 6/8;
+    grid-row: 2/3;
+}
+
+.eight{
+    background: darkgreen;
+    grid-column: 8/11;
+    grid-row: 2/3;
+}
+
+.nine{
+    background: darkmagenta;
+    grid-column: 1/4;
+}
+
+.ten{
+    background: darkolivegreen;
+    grid-column: 4/6;
+}
+
+.eleven{
+    background: darksalmon;
+    grid-column: 6/9;
+}
+
+.twelve{
+    background: dodgerblue;
+    grid-column: 9/11;
+}
+
+.thirteen{
+    background: fuchsia;
+    grid-column: 1/3;
+}
+
+.fourteen{
+    background: goldenrod;
+    grid-column:3/6;
+}
+
+.fifteen{
+    background: hotpink;
+    grid-column: 6/8;
+}
+
+.sixteen{
+    background: indianred;
+    grid-column:8/11;
+}
+
+.seventeen{
+    background: khaki;
+    grid-column:1/4;
+}
+
+.eightteen{
+    background: lightcoral;
+    grid-column: 4/6;
+}
+
+.nineteen{
+    background: lightpink;
+    grid-column:6/9;
+}
+
+.twenty{
+    background: lightseagreen;
+    grid-column:9/11;
+}
